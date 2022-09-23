@@ -1,0 +1,208 @@
+html,
+body {
+  min-width: 290px;
+  color: #4d4e53;
+  background-color: #ffffff;
+  font-family: 'Open Sans', Arial, sans-serif;
+  line-height: 1.5;
+}
+
+#navbar {
+  position: fixed;
+  min-width: 290px;
+  top: 0px;
+  left: 0px;
+  width: 300px;
+  height: 100%;
+  border-right: solid;
+  border-color: rgba(0, 22, 22, 0.4);
+}
+
+.nav-link:hover{
+font-size: 20px;
+}
+
+#main-doc {
+  position: absolute;
+  margin-left: 294px;
+  padding: 20px;
+  margin-bottom: 110px;
+  background-color: #d21b1bab;
+  margin-top: -10px;
+}
+
+header {
+  color: black;
+  margin: 10px;
+  text-align: center;
+  font-size: 1.8em; 
+}
+
+.main-section {
+  border: 1px solid black;
+  margin: 5px;
+  background-color: white;
+}
+
+/*------imagenes de la paguina------*/
+.naruto-img{
+  background-image: url(https://alfabetajuega.com/hero/2021/04/5-1.jpg?width=1200&aspect_ratio=1200:631);
+  background-position: -121px;
+  padding: 41px;
+}
+
+.bleach-img{
+  background-image: url(https://larepublica.pe/resizer/z_dD5d4vBa6MmvkjhaYW-AwCbUY=/1200x660/top/arc-anglerfish-arc2-prod-gruporepublica.s3.amazonaws.com/public/B4YYD4Z6DRHVHC767L3HTN6F2M.jpg);
+  background-position: 150px 470px;
+  padding: 41px;
+  color: white;
+}
+
+.One-Piece-img{
+  background-image: url(https://as01.epimg.net/meristation/imagenes/2021/02/08/noticias/1612786479_151283_1612786596_noticia_normal.jpg);
+  background-position: 93px 390px;
+  padding: 41px;
+}
+
+.Dragon-Ball-img{
+  background-image: url(https://static.bandainamcoent.eu/high/dragon-ball/dragonball-fighters-z/00-page-setup/dbfz_game-thumbnail.jpg);
+  background-position: 28px 440px;
+  padding: 41px;
+  color: #d73131;
+}
+
+.Avatar-Aang-img{
+  background-image: url(https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2021/07/Avatar-La-leyenda-de-Aang.jpg?fit=2050%2C1419&quality=50&strip=all&ssl=1);
+  background-position: -208px 900px;
+  padding: 41px;
+}
+
+.Los_Caballeros_del_Zodiaco-img{
+  background-image: url(https://images4.alphacoders.com/670/670864.png);
+  background-position: 1265px 800px;
+  padding: 41px;
+  color: white;
+} 
+
+.Mob_Psycho_100-img{
+  background-image: url(https://wallpaperaccess.com/full/1083782.png);
+  background-position: -489px 1200px;
+  padding: 41px;
+}
+
+.One_Punch_Man-img{
+  background-image: url(https://bitwares.net/wp-content/uploads/2020/03/20200324203349_1.jpg?w=1024);
+  background-position: -249px 700px;
+  padding: 41px;
+  color: white;
+}
+
+.Slam_Dunk-img{
+  background-image: url(http://images6.fanpop.com/image/photos/34800000/Slam-Dunk-Wall-slamdunk-34860091-1920-1200.jpg);
+  background-position: -121px 840px;
+  padding: 41px;
+  color: white;
+}
+
+.Mazinger_Z-img{
+  background-image: url(https://images5.alphacoders.com/803/thumb-1920-803198.jpg);
+  background-position: -180px 800px;
+  padding: 41px;
+  color: white;
+}
+
+.Neon_Genesis_Evangelion-img{
+  background-image: url(https://fondosmil.com/fondo/54550.jpg);
+  background-position: -312px 800px;
+  padding: 41px;
+  color: #dd6f7e;
+}
+
+.Death_Note-img{
+  background-image: url(https://cdn.wallpapersafari.com/71/55/e2zFax.jpg);
+  background-position: -26px 620px;
+  padding: 19px;
+  color: white;
+}
+
+#main-doc header {
+  text-align: left;
+  margin: 0px;
+}
+
+#navbar ul {
+  height: 88%;
+  padding: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+#navbar li {
+  color: #4d4e53;
+  border-top: 1px solid;
+  list-style: none;
+  position: relative;
+  width: 100%;
+}
+
+section a {
+  text-decoration: none;
+  color: black;
+}
+
+section a:hover{
+  font-size: 20px;
+}
+
+#navbar a {
+  display: block;
+  padding: 10px 30px;
+  color: #4d4e53;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
+section article {
+  color: #4d4e53;
+  margin: 15px;
+  font-size: 0.96em;
+}
+
+section li {
+  margin: 15px 0px 0px 20px;
+}
+
+
+@media only screen and (max-width: 815px) {
+  #navbar ul {
+    border: 1px solid;
+    height: 207px;
+  }
+
+  #navbar {
+    background-color: white;
+    position: absolute;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-height: 275px;
+    border: none;
+    z-index: 1;
+    border-bottom: 2px solid;
+  }
+
+  #main-doc {
+    position: relative;
+    margin-left: 0px;
+    margin-top: 270px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #main-doc {
+    margin-left: -10px;
+  }
+}
